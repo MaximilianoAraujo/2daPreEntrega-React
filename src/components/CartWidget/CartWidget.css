@@ -1,0 +1,12 @@
+.containerCarrito {
+    display: flex;
+    align-items: center;
+    margin: 0 6em;
+}
+
+.numero {
+    padding: 0.3em 0.6em;
+    border: solid 2px;
+    border-radius: 50%;
+    background-color: rgb(115, 167, 209) ;
+}

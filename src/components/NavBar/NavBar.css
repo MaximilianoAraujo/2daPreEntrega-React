@@ -1,0 +1,32 @@
+.containerTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerItems {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3em;
+    text-decoration: underline;
+    margin-right: 0.5em;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 1em;
+    padding: 1em;
+    border: solid 1px;
+    border-radius: 7px;
+    background-color: rgb(109, 149, 202);
+    font-weight: bolder;
+    cursor: pointer;
+    list-style: none;
+}
