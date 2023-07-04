@@ -1,25 +1,21 @@
 import React from 'react'
 import CartWidget from '../CartWidget/CartWidget'
+import { Link, NavLink } from 'react-router-dom'
 import "./NavBar.css"
 
 export const NavBar = () => {
     return (
-        <header>
-            <div className="containerTitulo">
-                <h1>MaxGaming</h1>
-                <p>||LOGO||</p>
-            </div>
-            <div className="containerItems">
-                <nav>
-                    <ul>
-                        <li>PlayStation 5</li>
-                        <li>Xbox Series</li>
-                        <li>Nintendo Switch</li>
-                        <li>Consolas</li>
-                    </ul>
-                </nav>
-                <CartWidget />
-            </div>
+        <header className="containerItems">
+            <nav>
+                <Link to="/"><img className='logo' src="../img/logo.jpg" alt="logo" /></Link>
+                <ul>
+                    <li><NavLink to="/categoria/1">PlayStation 5</NavLink></li>
+                    <li><NavLink to="/categoria/2">Xbox Series</NavLink></li>
+                    <li><NavLink to="/categoria/3">Nintendo Switch</NavLink></li>
+                    <li><NavLink to="/categoria/4">Consolas</NavLink></li>
+                </ul>
+                <CartWidget/>
+            </nav>
         </header>
     )
 }

@@ -1,0 +1,41 @@
+.divItem {
+    display: inline;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 2em;
+    padding: 2em;
+    background: #fffdf5;
+}
+
+.imgItem {
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.h3Item {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.pItem {
+    text-align: center ;
+    font-weight: bolder;
+    font-size: 1.1em;
+    color: #f64141;
+}
+
+.buttonItem {
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+    border: solid 1px #f6c297;
+    background: #fef6ef;
+    border-radius: 20px;
+}
+
+.buttonItem a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #020e68;
+}

@@ -1,0 +1,19 @@
+.h2Detail {
+    font-size: 3em;
+    text-align: center;
+}
+
+.h3Detail {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.pDetail {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.imgDetail {
+    display: block;
+    margin: 0 auto;
+}
