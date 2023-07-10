@@ -15,7 +15,7 @@ const App = () => {
           <NavBar />
           <Routes>
             <Route path="/" element={<ItemListContainer greeting="¡Bienvenido a nuestra tienda Online!" />} />
-            <Route path="/categoria/:idCategoria" element={<ItemListContainer greeting="¡Descubre las ultimas novedades!" />} />
+            <Route path="/categoria/:idCategoria" element={<ItemListContainer greeting="¡Descubre las últimas novedades!" />} />
             <Route path="/item/:idItem" element={<ItemDetailContainer />} />
             <Route path="/cart" element={<Cart/>}/>
             <Route path="*" element={<div>
