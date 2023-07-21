@@ -1,18 +1,20 @@
 import React from 'react'
 import { useContext } from 'react'
 import { CarritoContext } from '../../context/CarritoContext'
+import "./CartItem.css"
 
 
-const CartItem = ({ item, cantidad }) => {
+
+const CartItem = ({ item, cantidad}) => {
     const { eliminarProducto } = useContext(CarritoContext);
 
     return (
-        <div>
-            <h4>{item.nombre}</h4>
-            <p>Cantidad: {cantidad}</p>
-            <p>Precio: {item.precio}</p>
-            <button onClick={() => eliminarProducto(item.id)}>Eliminar</button>
-            <hr />
+        <div className='cardCont'>
+            <h4 className='nombre'>{item.nombre}</h4>
+            <strong className='parrafo'>Cantidad: {cantidad}</strong>
+            <strong className='parrafoDos'>Precio: {item.precio} ARS </strong>
+            <button className='eliminar' onClick={() => eliminarProducto(item.id)}>Eliminar</button>
+            <hr/>
         </div>
     )
 }

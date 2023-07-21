@@ -1,0 +1,46 @@
+.agregar, .mas, .menos{
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4px;
+    background-color: #e4bb6f;
+    cursor: pointer;
+}
+
+.agregar:hover, .mas:hover, .menos:hover {
+    background-color: #c49b51;
+}
+
+.mas {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 1.5em;
+}
+
+.menos {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 1.5em;
+}
+
+.contador {
+    display: inline-block;
+    font-size: 1.6em;
+    padding: 8px 38px;
+    border: 1px solid #eee1e1;
+    background-color: #f3f0db;
+    margin: 0;
+}
+
+.divMasmenos {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.divAgregar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}

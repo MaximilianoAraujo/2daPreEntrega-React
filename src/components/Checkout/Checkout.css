@@ -1,0 +1,92 @@
+.divCheckout {
+    max-width: 400px;
+    margin: 1em auto;
+    padding: 20px;
+    border: 2px solid #929292;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tituloCheckout {
+    text-align: center;
+    margin: 0 0 1em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 5px;
+}
+
+.input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.espacio {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.parrafoCarrito {
+    font-size: 1.3em;
+    margin: -10px;
+}
+
+.parrafoPrecio {
+    font-size: 1.2em;
+    color: brown;
+    margin: 10px 0 20px;
+}
+
+.parrafoTotal {
+    margin: 0.1em;
+    font-size: 1.4em;
+    color: #0056b3;
+}
+
+.form-group {
+    display: flex;
+    /* Utilizamos flexbox para alinear label e input */
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.compra {
+    padding: 8px 16px;
+    font-size: 1.5em;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    background-color: #e4bb6f;
+    text-decoration: none;
+    max-width: 55%;
+    margin: auto auto 1em;
+}
+
+.compra:hover {
+    background-color: #c49b51;
+}
+
+.precioFinal{
+    font-size: 1.5em;
+    color: brown;
+    margin: 10px 0 20px;
+}
+
+.error{
+    text-align: center;
+    color: red;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.compraFinalizada{
+    font-size: larger;
+}
