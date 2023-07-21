@@ -12,7 +12,6 @@ const ItemListContainer = ({ greeting }) => {
 
     useEffect(() => {
         const misProductos = idCategoria ? query(collection(dataBase, "inventario"), where("idCat", "==", idCategoria)) : collection(dataBase, "inventario");
-        
 
         getDocs(misProductos)
             .then(res => {
@@ -25,7 +24,6 @@ const ItemListContainer = ({ greeting }) => {
             })
             .catch(error => console.log(error))
     }, [idCategoria])
-
 
     return (
         <>
